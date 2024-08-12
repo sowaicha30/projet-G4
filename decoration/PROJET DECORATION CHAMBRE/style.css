@@ -1,0 +1,181 @@
+.boxs{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.mort{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    color: white;
+}
+.rema{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.rema i{
+    color: red;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+bod{
+    background-color:rgba(255, 192, 203, 0.68);
+}
+
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 800px;
+}
+.modal span{
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+}
+
+.btne1{
+    width: 30%;
+ align-items: center;
+ justify-content: center;
+   display: flex;
+   height: 80%;
+   padding: 10px;
+ margin-left: 500px;
+
+   
+}
+.car {
+   border: 1px solid black;
+ border-left: 100px;
+ width: 50%;
+ margin-left: 350px;
+}
+
+
+
+.care{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+    margin: 10px; 
+}
+.bordur{
+    background:rgba(255, 192, 203, 0.68);
+    margin: 5px;
+   font-weight: 300;
+   transition: background 0.5s, transform 0.5s;
+   border-radius: 15px;
+}
+.bordur:hover{
+    background:rgba(255, 192, 203, 0.68) ;
+    transform: translate(-10px);
+} 
+.service{
+    background:rgba(0, 0, 0, 0.369);
+    padding: 40px;
+   font-weight: 300;
+   transition: background 0.5s, transform 0.5s;
+  
+}
+.service:hover{
+    background:rgba(255, 192, 203, 0.68) ;
+    transform: translate(-10px);
+  
+}
+.bordur a{
+   margin: 10px;
+
+}
+.close {
+    color: blue;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 80px;
+    font-weight: bold;
+    transition: 0.3s;
+    border-radius: 10%;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.icone{
+   font-size: 50px;
+   margin-left: 300px;
+}
+#maison{
+    section {
+        min-height: 100vh;
+        padding: 3%;
+      }
+  
+      /* #bg-img {
+        background-image: url(./images/maison.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+          min-width: 100vh;
+          
+      } */
+}
+.col-md-4 i{
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    font-size: 40px;
+}
+input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
+textarea{
+    width: 600px;
+    border-radius: 10px;
+
+}
+#MAISON{
+    background-color: rgba(102, 51, 153, 0.151);
+   
+}
+#CHAMBRE{
+    background-color: rgba(188, 143, 143, 0.306);
+}
+#GALLERY{
+    background-color: rgba(255, 192, 203, 0.143);
+}
+#EVENEMENTS{
+    background-color: rgba(255, 192, 203, 0.143);
+
+}
+#CONTACT{
+    background-color: rgba(255, 192, 203, 0.143);
+
+}
+
+
+
